@@ -1,11 +1,3 @@
 build/
 bin/
-lib/
-.cache/
-.vscode/
-compile_commands.json
 *.o
-*.a
-*.so
-*.log
-*-log.txt

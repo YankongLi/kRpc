@@ -1,0 +1,11 @@
+{
+    "clangd.arguments": [
+        "-j=1",
+        "--background-index",
+        "--pch-storage=disk",
+        "--limit-references=100",
+        "--limit-results=20",
+        "--malloc-trim",
+        "--compile-commands-dir=${workspaceFolder}/cmake-build-debug"
+    ]
+}
